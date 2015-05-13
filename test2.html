@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+
+</head>
+<body>
+
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script><div id="test"></div>
+	<script>
+	$.getJSON("https://spreadsheets.google.com/feeds/list/1NM-rJxXBBgFxNaflL57uatPsEedZ0RhBxMABBMZWoP8/1/public/values?alt=json-in-script&callback=?", function(json){
+	var e = json.feed.entry,
+	l = e.length,
+	html = "",
+	entry, i, test;
+	for (i = 0; i < l; i++) {
+	entry = e[i];
+	test = entry.gsx$test.$t;
+	html += test + "<br/>";
+	}
+	$("#test").html(html);
+	});
+	</script>
+
+</body>
+
+</html>

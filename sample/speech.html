@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<link href="temp.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+	<div class="header">
+		<img src="logo.png" alt="wait..." />
+	</div>
+	<ul class="nav">
+		<li><a href="#">演講</a>
+        <ul>
+			<li><a href="#">依性質排列</a></li>
+            <li><a href="#">通識認證</a></li>
+		</ul>
+		</li>
+		<li><a href="#">實習</a>
+		<ul>
+			<li><a href="#">依區域排列</a></li>
+		</li>
+		</ul>
+        <li><a href="#">租屋</a>
+		<ul>
+			<li><a href="#">依路名排列</a></li>
+		</li>
+		</ul>
+        <li><a href="#">活動</a>
+		<ul>
+			<li><a href="#">依性質排列</a></li>
+		</ul>
+		</li>
+	</ul>
+	<div class="big" id="big"><img src="pic/speech1.jpg" alt="wait..." /></div>
+	<div class="m1" id="middle"><img src="pic/speech2.jpg" alt="wait..."/></div>
+	<div class="m2" id="middle"><img src="pic/speech3.jpg" alt="wait..."/></div>
+	<div class="s1" id="small"><img src="pic/speech4.jpg" alt="wait..."/></div>
+	<div class="s2" id="small"><img src="pic/speech5.jpg" alt="wait..."/></div>
+	<div class="s3" id="small"><img src="pic/speech6.jpg" alt="wait..."/></div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script type="text/javascript">
+  $(function(){
+		$("ul.nav > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
+		$("ul.nav > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
+	});
+</script>
+<script type='text/javascript' src='https://spreadsheets.google.com/feeds/list/0AoFreovJarCadDI5YTRqOENWT3ZqdjJrMkpOVWkxSVE/od6/public/values?alt=json-in-script&callback=test'></script>
+<script type="text/javascript" src="google.js"></script>
+  
