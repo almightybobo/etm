@@ -96,86 +96,114 @@ ul.nav ul li:hover > ul{
     height: 1px;
 }
 /*********information**********/
-.big
+.pic0
 {
 	left: 80px;
 	top:100px;
-}
-.big:hover
-{
-	opacity:0.5;
-}
-#big  img{
-	max-width:100%;
-	max-height:100%;
-	width:auto;
-	height:auto;
-}
-#big
-{
 	position:absolute;
 	width:654px;
 	height:380px;
 	z-index:1;
 }
-.m1
-{
-	left: 740px;
-	top:100px;
-}
-
-.m2
-{
-	left: 740px;
-	top:367px;
-}
-#middle:hover
+.pic0:hover
 {
 	opacity:0.5;
 }
-#middle  img{
+.pic0  img{
 	max-width:100%;
 	max-height:100%;
 	width:auto;
 	height:auto;
 }
-#middle
+.pic1
 {
+	left: 740px;
+	top:100px;
 	position:absolute;
 	width:480px;
 	height:263px;
 	z-index:1;
 }
-.s1
-{
-	left: 80px;
-}
-
-.s2
-{
-	left: 300px;
-}
-
-.s3
-{
-	left: 520px;
-}
-#small img{
+.pic1  img{
 	max-width:100%;
 	max-height:100%;
 	width:auto;
 	height:auto;
 }
-#small:hover
+.pic2
+{
+	left: 740px;
+	top:367px;
+	position:absolute;
+	width:480px;
+	height:263px;
+	z-index:1;
+}
+.pic2  img{
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+}
+.pic2:hover
 {
 	opacity:0.5;
 }
-#small
+.pic3
 {
+	left: 80px;
 	position:absolute;
 	width:214px;
 	height:146px;
 	top:484px;
 	z-index:1;
+}
+.pic3 img{
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+}
+.pic3:hover
+{
+	opacity:0.5;
+}
+.pic4
+{
+	left: 300px;
+	position:absolute;
+	width:214px;
+	height:146px;
+	top:484px;
+	z-index:1;
+}
+.pic4 img{
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+}
+.pic4:hover
+{
+	opacity:0.5;
+}
+.pic5
+{
+	left: 520px;
+	position:absolute;
+	width:214px;
+	height:146px;
+	top:484px;
+	z-index:1;
+}
+.pic5 img{
+	max-width:100%;
+	max-height:100%;
+	width:auto;
+	height:auto;
+}
+.pic5:hover
+{
+	opacity:0.5;
 }
 /************************************************/
