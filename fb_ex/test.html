@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>testing</title>
+  </head>
+  <body>
+    <div id="fb-root"></div>
+    <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="http://connect.facebook.net/zh_TW/all.js"></script>
+    <script language="javascript" type="text/javascript"></script>
+    <script language="javascript" type="text/javascript">
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId : '127418697592555',
+          xfbml : true,
+          version : 'v2.3',
+          status : true
+        });
+      };
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3&appId=127418697592555";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk')); 
+     /************************************************/ 
+      FB.api('/289915787788384/feed',function(response){
+        console.log(response);  
+      });
+    </script>
+
+  </body>
+</html>
+<!--<script type="text/javascript" src="fb.js"></script>-->
+
