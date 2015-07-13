@@ -1,0 +1,35 @@
+.header{
+	width:100%;
+	height:60px;
+  padding-left:50px;
+  background-color:#0abab5;
+}
+#button {
+  margin-left:30px;
+  margin-top:20px;
+}
+#dropdown1{
+  margin-left:30px;
+  margin-top:55px;
+}
+.card{
+  height:320px;
+  width:400px;
+  left:50px;
+  top:40px;
+  float:left;
+  margin:10px auto;
+}
+.activator{
+  max-height:270px;
+  width:auto;
+}
+.card-content{
+  margin-top:-20px;
+}
+#pic1{
+  margin-left:2%;
+}
+#pic2{
+  margin-left:2%;
+} 

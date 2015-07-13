@@ -207,3 +207,27 @@ ul.nav ul li:hover > ul{
 	opacity:0.5;
 }
 /************************************************/
+span.text-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    cursor: pointer;
+    /*height: 150px;*/
+    left: 0%;
+    position: absolute;
+    top: 60%;
+    font-family:Meiryo,"微軟正黑體";
+    /*width: 150px;*/
+    opacity:0;
+    -webkit-transition: opacity 500ms;
+    -moz-transition: opacity 500ms;
+    -o-transition: opacity 500ms;
+    transition: opacity 500ms;
+} 
+span.text-content span {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+#pic:hover span.text-content{
+    opacity:1;
+}
