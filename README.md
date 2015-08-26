@@ -1,6 +1,7 @@
 # Easy to maintain
 #About use google spreadsheet to be the database
-
+https://github.com/almightybobo/etm/blob/master/sample/spreadsheet.js
+ref:http://www.wfublog.com/2013/03/google-spreadsheet-as-micro-database-update-2.html
 
 #About graph api
 1.create your app(there is a button called "Add a New App")
