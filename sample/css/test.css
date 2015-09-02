@@ -38,4 +38,35 @@
 #pic2{
   margin-left:1%;
   margin-right:1%;
-} 
+}
+/**********************************/
+#search{
+  width:120px;
+  height:40px;
+  background-color:white;
+  margin-left:48%;
+  padding: 1px 0px;
+  border: 2px inset;
+}
+.grid-item {
+    /*width: 400px;
+    height: 320px;/*change*/
+    float: left;
+    margin-top:1%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.grid-sizer,.grid-item {
+  width: 32%;
+}

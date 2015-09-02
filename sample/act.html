@@ -1,49 +1,17 @@
-﻿<!DOCTYPE html>
+﻿<DOCTYPE html>
 <html>
 <head>
 	<title>Page Title</title>
-	<link href="temp.css" rel="stylesheet" type="text/css" media="all" />
-	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script type="text/javascript">
-	$(function(){
-		$("ul.nav > li:has(ul) > a").append('<div class="arrow-bottom"></div>');
-		$("ul.nav > li ul li:has(ul) > a").append('<div class="arrow-right"></div>');
-	});
-	</script>
+	<link href="css/site.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
 </head>
 <body>
-	<div class="header">
-		<img src="logo.png" alt="wait..." />
+  <div class="header">
 	</div>
-	<ul class="nav">
-		<li><a href="#">演講</a>
-        <ul>
-			<li><a href="#">依性質排列</a></li>
-            <li><a href="#">通識認證</a></li>
-		</ul>
-		</li>
-		<li><a href="#">實習</a>
-		<ul>
-			<li><a href="#">依區域排列</a></li>
-		</li>
-		</ul>
-        <li><a href="#">租屋</a>
-		<ul>
-			<li><a href="#">依路名排列</a></li>
-		</li>
-		</ul>
-        <li><a href="#">活動</a>
-		<ul>
-			<li><a href="#">依性質排列</a></li>
-		</ul>
-		</li>
-	</ul>
-	<div class="big" id="big"><img src="pic/act1.jpg" alt="wait..." /></div>
-	<div class="m1" id="middle"><img src="pic/act2.jpg" alt="wait..."/></div>
-	<div class="m2" id="middle"><img src="pic/act3.jpg" alt="wait..."/></div>
-	<div class="s1" id="small"><img src="pic/act4.jpg" alt="wait..."/></div>
-	<div class="s2" id="small"><img src="pic/act5.jpg" alt="wait..."/></div>
-	<div class="s3" id="small"><img src="pic/act6.jpg" alt="wait..."/></div>
 </body>
-
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script><div id="test"></div>
+<script type="text/javascript" src="js/spreadsheet2.js"></script>
 </html>
